@@ -19,7 +19,7 @@ const logger = winston.createLogger({
         region: process.env.CLOUDWATCH_REGION
       },
       formatLog: item =>
-        `${item.level}: ${item.message} ${JSON.stringify(item.meta)}`
+        `${item.level}: ${item.message} ${JSON.stringify(item.tags)}`
     })
   ]
 })
