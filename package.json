@@ -1,0 +1,23 @@
+{
+  "name": "aws-logs-node-service",
+  "version": "1.0.0",
+  "description": "Simple NodeJS service for AWS CloudWatchLogs",
+  "main": "aws-cloudwatchlogs.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "nodeJS",
+    "aws",
+    "cloudwatchlogs",
+    "logs"
+  ],
+  "author": "Karthick",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.7.2",
+    "winston-aws-cloudwatch": "^3.0.0",
+    "winston-cloudwatch": "^6.0.0",
+    "winston-cloudwatch-transport": "^1.0.8"
+  }
+}
